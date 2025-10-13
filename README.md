@@ -45,12 +45,15 @@ AI-powered retinal disease detection system using hybrid deep learning architect
 ### Installation
 
 1. **Clone the repository**
+ ```
 git clone https://github.com/Gowtham-PL/oct-disease-classifier.git
 cd oct-disease-classifier
+```
 
 
 
-2. **Create virtual environment**
+3. **Create virtual environment**
+```
 python -m venv venv
 
 Windows
@@ -58,11 +61,12 @@ venv\Scripts\activate
 
 Linux/Mac
 source venv/bin/activate
+```
 
 
 
 3. **Install dependencies**
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 
@@ -74,12 +78,12 @@ Place downloaded files in the `models/` folder.
 
 ### Run the Application
 
-python app.py
+```python app.py```
 
 
 
 Open your browser and navigate to: [**http://localhost:5000**](http://localhost:5000)
-
+```
 ## 📁 Project Structure
 
 oct-disease-classifier/
@@ -101,6 +105,8 @@ oct-disease-classifier/
 │ └── augmentation.py
 ├── requirements.txt
 └── README.md
+
+```
 
 
 
@@ -190,5 +196,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 If you find this project useful, please consider giving it a star!
 
 ---
+
 
 **Made with ❤️ for advancing healthcare AI**

@@ -28,11 +28,24 @@ AI-powered retinal disease detection system using hybrid deep learning architect
 
 | Metric | Score |
 |--------|-------|
-| **Overall Accuracy** | 94% |
+| **Overall Accuracy** | 96% |
 | **CNV Accuracy** | 96% |
-| **DME Accuracy** | 94% |
-| **DRUSEN Accuracy** | 92% |
+| **DME Accuracy** | 98% |
+| **DRUSEN Accuracy** | 94% |
 | **NORMAL Accuracy** | 97% |
+
+## Classification Report
+
+| Class  | Precision | Recall | F1‑Score | Support |
+|:------:|----------:|-------:|---------:|--------:|
+| CNV    | 96.41%    | 96.80% | 96.61%   | 250     |
+| DME    | 98.33%    | 94.40% | 96.33%   | 250     |
+| DRUSEN | 94.25%    | 98.40% | 96.28%   | 250     |
+| NORMAL | 97.98%    | 97.20% | 97.59%   | 250     |
+|        |           |        |          |         |
+| Accuracy     |        |        | 96.70% | 1000 |
+| Macro Avg    | 96.75% | 96.70% | 96.70% | 1000 |
+| Weighted Avg | 96.75% | 96.70% | 96.70% | 1000 |
 
 ## 🚀 Quick Start
 
@@ -199,3 +212,4 @@ If you find this project useful, please consider giving it a star!
 
 
 **Made with ❤️ for advancing healthcare AI**
+

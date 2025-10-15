@@ -8,7 +8,7 @@ AI-powered retinal disease detection system using hybrid deep learning architect
 
 ## 🎯 Features
 
-- **94% Accuracy** on OCT disease classification
+- **96% Accuracy** on OCT disease classification
 - **4 Disease Classes**: CNV, DME, DRUSEN, NORMAL
 - **Hybrid Architecture**: GLCM texture features + EfficientNetB0 deep learning
 - **Dynamic Severity Assessment** based on image features
@@ -212,4 +212,5 @@ If you find this project useful, please consider giving it a star!
 
 
 **Made with ❤️ for advancing healthcare AI**
+
 

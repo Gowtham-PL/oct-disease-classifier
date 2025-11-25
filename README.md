@@ -102,9 +102,13 @@ Open your browser and navigate to: [**http://localhost:5000**](http://localhost:
 oct-disease-classifier/
 ├── app.py # Flask web application
 ├── templates/
-│ └── index.html # Frontend interface
+│ └── index.html
 ├── static/
-│ └── uploads/ # User uploaded images
+│ |── uploads/ # User uploaded images
+| |── css/
+| |  └── style.css
+| └── js/
+|    └── script.js
 ├── models/ # Trained models (download separately)
 │ ├── oct_hybrid_optimized_final.h5
 │ ├── effnet_feature_extractor.h5
@@ -115,7 +119,8 @@ oct-disease-classifier/
 │ ├── train_hybrid_model.py
 │ ├── preprocess.py
 │ ├── features.py
-│ └── augmentation.py
+│ |── predict.py
+| └── visualize_prediction.py
 ├── requirements.txt
 └── README.md
 
@@ -212,5 +217,6 @@ If you find this project useful, please consider giving it a star!
 
 
 **Made with ❤️ for advancing healthcare AI**
+
 
 
